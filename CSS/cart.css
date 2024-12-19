@@ -1,10 +1,12 @@
+@import url(./style.css);
+
 .cart-total-container{
     padding: 0 20px 10px 20px;
 }
 
 .cart-total-container h3{
     text-align: right;
-    color: #0caf1d;
+    color: var(--dsc-color-bg-quaternary);
 
 }
 
@@ -35,7 +37,7 @@
     padding: 10px 0;
     font-size: 12px;
     font-weight: 700;
-    color: #0caf1d;
+    color: var(--dsc-color-font-secondary);
 }
 
 #cart-container {
@@ -46,11 +48,11 @@
 
 .cart-item-description{
     padding: 10px 0;
-    color: grey;
+    color: var(--dsc-color-bg-tertiary);
 }
 
 
 .cart-item-quantity-btn{
-    color: #3483fa;
+    color: var(--dsc-color-btn-primary);
     cursor: pointer;
 }

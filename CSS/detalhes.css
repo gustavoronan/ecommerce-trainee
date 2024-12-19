@@ -1,5 +1,7 @@
+@import url(./style.css);
+
 .category{
-    background-color: #636363;
+    background-color: var(--dsc-color-bg-tertiary);
     color: white;
     border-radius: 4px;
     height: 30px;
@@ -25,17 +27,17 @@
 }
 
 .product-details-bottom h3{
-    color: green;
+    color: var(--dsc-color-bg-quaternary);
     font-size: 20px;
 }
 
 .product-details-bottom h4{
-    color: #636363;
+    color: var(--dsc-color-bg-tertiary);
     font-size: 12px;
 }
 
 .product-details-bottom p{
-    color: #636363;
+    color: var(--dsc-color-font-primary);
     font-size: 12px;
     margin: 10px 0;
 }
